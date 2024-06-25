@@ -76,7 +76,6 @@ import Batang from "./pages/infografis/Batang";
 import Garis3 from "./pages/infografis/Garis3";
 import Garis4 from "./pages/infografis/Garis4";
 import Tabel from "./pages/infografis/Tabel";
-import Profil_kadinkes from "./pages/profil/Profil_kadinkes";
 
 const App = () => {
   React.useEffect(() => {
@@ -94,7 +93,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<SertifikatLaik/>} />
+            <Route index element={<Home />} />
             <Route path="agenda" element={<Agenda />} />
             <Route path="berita" element={<Berita />} />
             {/* profil */}
