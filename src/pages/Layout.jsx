@@ -20,9 +20,9 @@ const Layout = () => {
   // Check if current location is a profil page
   const isProfilPage = location.pathname.includes("/profil");
   // Check if current location is an unduh page
-  const isUnduhPage = location.pathname.includes("/");
+  const isUnduhPage = location.pathname.includes("/unduh");
   // Check if current location is an info page
-  const isInfoPage = location.pathname.includes("/setiap_saat");
+  const isInfoPage = location.pathname.includes("/");
   // Check if current location is a media page
   const isMediaPage = location.pathname.includes("/media");
   // infografis
