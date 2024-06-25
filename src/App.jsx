@@ -93,7 +93,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<Berita />} />
+            <Route index element={<VisiMisi />} />
             <Route path="agenda" element={<Agenda />} />
             <Route path="berita" element={<Berita />} />
             {/* profil */}
