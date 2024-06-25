@@ -94,7 +94,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
-            <Route index element={<SertaMerta/>} />
+            <Route index element={<Berkala/>} />
             <Route path="agenda" element={<Agenda />} />
             <Route path="berita" element={<Berita />} />
             {/* profil */}
