@@ -24,7 +24,7 @@ const Layout = () => {
   // Check if current location is an info page
   const isInfoPage = location.pathname.includes("/setiap_saat");
   // Check if current location is a media page
-  const isMediaPage = location.pathname.includes("/");
+  const isMediaPage = location.pathname.includes("/media");
   // infografis
   const isGrafikPage = location.pathname.includes("/infografis");
 
