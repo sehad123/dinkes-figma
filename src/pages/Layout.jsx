@@ -26,7 +26,7 @@ const Layout = () => {
   // Check if current location is a media page
   const isMediaPage = location.pathname.includes("/media");
   // infografis
-  const isGrafikPage = location.pathname.includes("/infografis");
+  const isGrafikPage = location.pathname.includes("/");
 
   // profil
   const toggleSidebar = () => {
